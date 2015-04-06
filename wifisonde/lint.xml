@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/example/wifiprojekt/Dialog.java" />
+    </issue>
+    <issue id="ShowToast">
+        <ignore path="src/com/example/wifiprojekt/MainActivity.java" />
+    </issue>
+    <issue id="ViewHolder">
+        <ignore path="src/com/example/wifiprojekt/ListAdapter.java" />
+    </issue>
+</lint>

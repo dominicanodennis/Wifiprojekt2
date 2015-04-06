@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.abhi.gif.example.GifMainActivity$PlaceholderFragment" >
+
+    <com.abhi.gif.lib.AnimatedGifImageView
+        android:id="@+id/animatedGifImageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:nestedScrollingEnabled="true" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/animatedGifImageView1"
+        android:text="@string/button_wifiliste"
+        android:onClick="backToWifiList" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/animatedGifImageView1"
+        android:layout_alignLeft="@+id/animatedGifImageView1"
+        android:background="#0A730A"
+        android:gravity="center"
+        android:text="@string/ssid_ssid"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/font_size" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:background="#0A730A"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/font_size" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_tracking" 
+        android:onClick="beendeApp"/>
+
+</RelativeLayout>

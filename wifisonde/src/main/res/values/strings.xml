@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wifisonde</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Refresh</string>
+    <string name="update_info">Scanning</string>
+    <string name="title_activity_tracking">TrackingActivity</string>
+    <string name="ssid_ssid">RSSI :</string>
+    <string name="button_wifiliste">Zurück zur Wifiliste</string>
+    <string name="button_tracking">Wifisonde beenden</string>
+
+</resources>

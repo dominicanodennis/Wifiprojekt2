@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/dennis/AndroidStudioProjects/Wifiprojekt2/wifisonde/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/dennis/AndroidStudioProjects/Wifiprojekt2/wifisonde/build/intermediates/pre-dexed/debug/classes-82ba377507a35ab36905add4a8337aef87eeea82.jar" />
+    </item>
+    <item
+        jar="/home/dennis/AndroidStudioProjects/Wifiprojekt2/wifisonde/build/intermediates/exploded-aar/Wifiprojekt2/gifimageviewlib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e54e3eb01bc5ef4c97ed7d1e0f6738d504d5ec7">
+        <dex dex="/home/dennis/AndroidStudioProjects/Wifiprojekt2/wifisonde/build/intermediates/pre-dexed/debug/classes-fe48052825d19c5ed1ac5968b8bde918d289225f.jar" />
+    </item>
+    <item
+        jar="/home/dennis/AndroidStudioProjects/Wifiprojekt2/wifisonde/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/dennis/AndroidStudioProjects/Wifiprojekt2/wifisonde/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-9654d43918a1ec4df5ba46db154b7656645ddf3c.jar" />
+    </item>
+    <item
+        jar="/home/dennis/android-sdks/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/dennis/AndroidStudioProjects/Wifiprojekt2/wifisonde/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-daa2d8b1b0db39b60268babfbdc8ea9e169de039.jar" />
+    </item>
+    <item
+        jar="/home/dennis/AndroidStudioProjects/Wifiprojekt2/wifisonde/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/dennis/AndroidStudioProjects/Wifiprojekt2/wifisonde/build/intermediates/pre-dexed/debug/classes-6743b2c1e6376cac181395da0026cc4fa71b9a0f.jar" />
+    </item>
+
+</items>
