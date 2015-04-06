@@ -34,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
 	private WifiReceiver wifiReceiver;
 	private ListView listView;
 	private String wifiListe[];
-	private Toast toast1, toast2, toast3, toast4;
+	private Toast toast1, toast2, toast3, toast4, toast5;
 	private List<ScanResult> scanResultate;
 	private int netId;
 	private String bssid, ssid;
