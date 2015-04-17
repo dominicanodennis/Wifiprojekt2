@@ -238,10 +238,9 @@ public class MainActivity extends ActionBarActivity {
 			List<String> resultLinesList = new LinkedList<>();
 
 			for (ScanResult scanResult : filteredResults.values()) {
-				resultLinesList.add(scanResult.SSID + "  " + scanResult.level
-						+ " dbm / "
-						+ rssiRechner.rechneRSSIinProzent(scanResult.level)
-						+ " %");
+				resultLinesList.add(rssiRechner.rechneRSSIinProzent(scanResult.level)
+						+ " %"+ "  "+ scanResult.level+" dbm     "
+                        +scanResult.SSID);
 			}
 			String[] resultLines = resultLinesList
 					.toArray(new String[resultLinesList.size()]);

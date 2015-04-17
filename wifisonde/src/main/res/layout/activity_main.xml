@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="#D66113"
+        android:background="#ffd67a1b"
         android:drawSelectorOnTop="false"
         android:listSelector="#0A730A"
         android:textColor="#000000" >

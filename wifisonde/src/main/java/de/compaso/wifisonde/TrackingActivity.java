@@ -1,12 +1,5 @@
 package de.compaso.wifisonde;
 
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
-import com.abhi.gif.lib.AnimatedGifImageView;
-import com.abhi.gif.lib.AnimatedGifImageView.TYPE;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -19,6 +12,13 @@ import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.abhi.gif.lib.AnimatedGifImageView;
+import com.abhi.gif.lib.AnimatedGifImageView.TYPE;
+
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 public class TrackingActivity extends FragmentActivity {
 
@@ -214,7 +214,7 @@ public class TrackingActivity extends FragmentActivity {
 				ssid = scanResult1.SSID;
 
 				textFeld1.setText("Scane: " + ssid);
-				textFeld2.setText("Signallevel: " + wifiLevel + " %");
+				textFeld2.setText("Signallevel:  " + wifiLevel + " % "+ " / "+scanResult1.level+ "  " + "dbm");
 
 				AnimationWithSound animation = new AnimationWithSound(
 						rssiLevel, getApplicationContext());
