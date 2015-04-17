@@ -4,8 +4,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiManager;
@@ -42,18 +40,18 @@ public class MainActivity extends ActionBarActivity {
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		Log.i("CREATE", "On create");
+		//Log.i("CREATE", "On create");
 		setContentView(R.layout.activity_main);
 
 		listView = (ListView) findViewById(R.id.listView1);
 		wifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
 
-		WifiManager.WifiLock lock = wifiManager.createWifiLock(
-				WifiManager.WIFI_MODE_SCAN_ONLY, "Scan_only");
+//		WifiManager.WifiLock lock = wifiManager.createWifiLock(
+//				WifiManager.WIFI_MODE_SCAN_ONLY, "Scan_only");
+//
+//		lock.acquire();
 
-		lock.acquire();
-
-		ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+	//	ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
 
 		if (!wifiManager.isWifiEnabled()) {
 			Log.i("WIFI-DISABLED", "Wifi is diabled: enabling");
@@ -73,11 +71,11 @@ public class MainActivity extends ActionBarActivity {
 			Helperclass helper1 = new Helperclass(wifiManager);
 			helper1.disableAllNetworks(this.netId);
 
-			NetworkInfo networkInfo = connectivityManager
-					.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-
-			Log.i("WIFI-Connected",
-					"Is connected: " + networkInfo.isConnected());
+//			NetworkInfo networkInfo = connectivityManager
+//					.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+//
+//			Log.i("WIFI-Connected",
+//					"Is connected: " + networkInfo.isConnected());
 		}
 
 		Helperclass helper2 = new Helperclass(wifiManager);
