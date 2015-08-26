@@ -57,11 +57,6 @@ public class TrackingActivity extends FragmentActivity {
           bssid = intent.getExtras().getString("mac");
           ssid = intent.getExtras().getString("wifiname");
 
-//        scanResult = (ScanResult) intent.getSerializableExtra("scanresult");
-//        bssid = scanResult.BSSID;
-//        ssid = scanResult.SSID;
-
-
         scanne();
 
     }

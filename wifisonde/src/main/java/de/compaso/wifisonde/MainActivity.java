@@ -30,7 +30,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class MainActivity extends ActionBarActivity implements Parcelable {
+public class MainActivity extends ActionBarActivity  {
 
     static WifiManager wifiManager;
     private WifiReceiver wifiReceiver;
@@ -215,15 +215,7 @@ public class MainActivity extends ActionBarActivity implements Parcelable {
         super.onBackPressed();
     }
 
-    @Override
-    public int describeContents() {
-        return 0;
-    }
 
-    @Override
-    public void writeToParcel(Parcel dest, int flags) {
-
-    }
 
     class WifiReceiver extends BroadcastReceiver {
 
